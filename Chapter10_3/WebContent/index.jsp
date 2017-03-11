@@ -7,6 +7,12 @@
 <title>Welcome page</title>
 </head>
 <body>
-
+	<h1>Fill the form </h1><br>
+	<form action="myPage.jsp" method="get">
+		first movie : <input type="text" name="movie_1"><br>
+		second movie : <input type="text" name="movie_2"><br>
+		third movie : <input type="text" name="movie_3"><br>
+		<br><input type="submit" value="OK">  
+	 </form>
 </body>
 </html>
