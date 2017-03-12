@@ -1,0 +1,19 @@
+<taglib>
+   <!-- Main thing in taglib get unique name and what kind version using it -->
+	<tlib-version>1.2</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<uri>MyCustomTags</uri>
+ <tag>
+   <!-- Here is all about description on tag, name, location, what kind of body have it? -->
+ 	<description>takes an attribute and iterates over body</description>
+ 	<name>simpleOne</name>
+ 	<tag-class>com.example.tags.SimpleTagTest</tag-class>
+ 	<body-content>scriptless</body-content>
+ 	<!-- This tag will use attribute -->
+ 	<attribute>
+ 		<name>movieList</name>
+ 		<required>true</required>
+ 		<rtexprvalue>true</rtexprvalue>
+ 	</attribute>
+ </tag>	
+</taglib>
