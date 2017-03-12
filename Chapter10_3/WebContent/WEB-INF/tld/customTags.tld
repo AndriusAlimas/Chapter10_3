@@ -16,4 +16,15 @@
  		<rtexprvalue>true</rtexprvalue>
  	</attribute>
  </tag>	
+  <tag>
+  	<description>this tag will throw an exception SkipPageException</description>
+  	<name>exceptionOne</name>
+  	<tag-class>com.example.tags.SimpleTagTest2</tag-class>
+  	<body-content>scriptless</body-content>
+  	<attribute>
+  		<name>op</name>
+  		<required>true</required>
+  		<rtexprvalue>true</rtexprvalue>
+  	</attribute>
+  </tag>
 </taglib>

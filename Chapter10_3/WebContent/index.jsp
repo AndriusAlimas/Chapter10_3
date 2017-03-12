@@ -14,5 +14,9 @@
 		genre : <input type="text" name="genre"><br>
 		<br><input type="submit" value="OK">  
 	 </form>
+	 <br><br><h2>Example about SkipPageException:</h2><br>
+	 <a href="example.jsp">example page</a>
+	  <br><br><h2>Example about SkipPageException within included file:</h2><br>
+	 <a href="example2.jsp">example page</a>
 </body>
 </html>
